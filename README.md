@@ -53,7 +53,7 @@ pip install -r requirements.txt
 python app.py
 4️⃣ Access in Browser
 Navigate to http://localhost:8501
-
+```
 📊 Usage Guide
 
 Enter a valid stock ticker (e.g., AAPL, GOOGL, TSLA).
