@@ -1,6 +1,6 @@
 # 📈 Stock Forecast Dashboard (Prophet + ARIMA)
 
-A full-stack interactive dashboard for **stock price forecasting** built with **Streamlit**, integrating **Meta’s Prophet** and **ARIMA** models for accurate, data-driven financial predictions.  
+A full-stack interactive dashboard for **stock price forecasting** built with **Gradio**, integrating **Meta’s Prophet** and **ARIMA** models for accurate, data-driven financial predictions.  
 The app provides visual analytics, automatic trend detection, and customizable time-series forecasting in an intuitive web interface.
 
 ---
@@ -9,7 +9,7 @@ The app provides visual analytics, automatic trend detection, and customizable t
 
 - 🔮 **Dual-Model Forecasting:** Compare predictions from Prophet and ARIMA models.  
 - 🧠 **Auto Data Preprocessing:** Cleans and prepares stock data dynamically from Yahoo Finance.  
-- 📊 **Interactive Visuals:** Line charts, trends, and forecast intervals rendered via Streamlit.  
+- 📊 **Interactive Visuals:** Line charts, trends, and forecast intervals rendered via Gradio.  
 - ⚙️ **Model Evaluation:** Includes RMSE and MAPE metrics for transparent performance comparison.  
 - 📁 **Cached Data Layer:** Reduces repeated API calls for faster interactions.  
 - 🔁 **Robust UI:** Handles API failures and missing data gracefully with custom alerts.  
@@ -21,7 +21,7 @@ The app provides visual analytics, automatic trend detection, and customizable t
 
 | Layer | Technology |
 |:------|:------------|
-| **Frontend** | Streamlit |
+| **Frontend** | Gradio |
 | **Data Source** | Yahoo Finance API |
 | **Forecasting Models** | Prophet, ARIMA (statsmodels) |
 | **Visualization** | Matplotlib, Plotly |
@@ -34,7 +34,7 @@ The app provides visual analytics, automatic trend detection, and customizable t
 ```
 📦 stock-forecast-dashboard
 │
-├── app.py # Main Streamlit app
+├── app.py # Main Gradio app
 ├── requirements.txt # Dependencies
 ├── README.md # Documentation
 └── models/ # Saved model files
@@ -79,7 +79,7 @@ Both models generate their own confidence intervals and trend projections, allow
 
  Integrate real-time financial news sentiment to enhance prediction signals.
 
- Deploy via AWS Lambda or Streamlit Cloud for auto-scaling.
+ Deploy via AWS Lambda or Gradio Cloud for auto-scaling.
 
  Enable multi-stock portfolio forecasting and analytics comparison.
 
