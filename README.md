@@ -31,14 +31,14 @@ The app provides visual analytics, automatic trend detection, and customizable t
 ---
 
 ## 📂 Project Structure
-
+```
 📦 stock-forecast-dashboard
 │
 ├── app.py # Main Streamlit app
 ├── requirements.txt # Dependencies
 ├── README.md # Documentation
 └── models/ # Saved model files
-
+```
 ---
 
 ## ⚙️ Installation & Setup
