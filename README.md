@@ -37,3 +37,5 @@ The app provides visual analytics, automatic trend detection, and customizable t
 ├── requirements.txt # Dependencies
 ├── README.md # Documentation
 └── models/
+
+---
